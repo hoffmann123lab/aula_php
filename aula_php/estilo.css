@@ -1,0 +1,16 @@
+.container{
+    height: 100vh;
+}
+
+.divisao{
+    width: 50%;
+}
+
+.qdrAzul{
+    background-color: rgb(121, 164, 228);
+    height: 100%;
+    width: 100%;
+}
+.linha{
+    height: 33,3333333333333333333333333vh;
+}
