@@ -5,21 +5,47 @@
     align-items: center;
 }
 
-.qdr{
-    width: 500px;
-    height: 500px;
-    background-color: aqua;
-    border-radius: 20px; /* bordas arredondadas */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .qdrimagem{
     width: 400px;
-    height: 500px;
-    background-color: rgb(255, 0, 0);
-    border-radius: 20px; /* bordas arredondadas */
+    height: 700px;
+    background-color: rgb(94, 91, 91);
+    border-radius: 20px;
+}
+
+.qdr{
+    width: 1110px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://wallpapers.com/images/featured/imagens-de-paisagens-a3hr6gk3xfx36dyg.jpg');
+    border-radius: 20px;
     display: flex;
-    justify-content: center;
+    background-color: aqua;
+}
+
+.for{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.for input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.for input[type="submit"]{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.meio{
     align-items: center;
+    justify-content: center;
+    padding-top: 150px;
 }

@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="container">
-        <div class="qdr ">
+    <div class="container coluna">
+        <div class="qdr">
         <div class="qdrimagem">
-            <form action="processa.php" method="POST">
+            <form class="for meio" action="processa.php" method="POST">
+                <h1>Cadastro</h1>
                 <input type="text" placeholder="Insira seu nome" name="nome">
                 <input type="email" placeholder="Insira seu email" name="email">
                 <input type="password" placeholder="Insira seu senha" name="senha">
