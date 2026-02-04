@@ -69,7 +69,25 @@
  $onibus->virandodireita();
 
  class animal{
-    public $locomove;
+    public $nome;
+    public $especie;
     public $come;
-    public $;
+    public $locomove;
+
+    function __construct(string $nome, string $especie, string $come, string $locomove)
+    {
+        $this->nome = $nome;
+        $this->especie = $especie;
+        $this->come = $come;
+        $this->locomove = $locomove;
+    }
+
+    function mover(){
+        echo"O {$this->nome} da especie {$this->especie} esta se movendo<br>";
+    }
+    function comer(){
+        echo"O {$this->nome} da especie {$this->especie} esta comendo<br>";
+    }
+
  }
+
